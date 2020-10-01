@@ -11,7 +11,7 @@ Validation Images of Cats = 500<br>
 Validation Images of Dogs = 500<br>
 
 <b>Techniques Used:</b><br>
-1-Data Augmentation (Zoom, flip etc)<br>
+1-Data Augmentation (zoom,horizontal_flip,rotation)<br>
 1-Convolutional Neural Network<br>
 2-Dropout<br>
 
