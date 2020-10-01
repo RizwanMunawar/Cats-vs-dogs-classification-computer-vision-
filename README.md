@@ -24,7 +24,4 @@ Validation Images of Dogs = 500<br>
 Stored Model <a href = "https://drive.google.com/file/d/1AtlKCOqGHTJjumfso62d8C9uSOHrC7nB/view?usp=sharing">Link</a><br>
 
 <b>Results:</b><br>
-Achieved 75% Accuracy on Validation Data with <b><i>epochs = 25</i></b>, but if you have gpu so you can achieve 95% accuracy with increase in number of epoches and dropout value<br>
-
-<b>Colab Notebook:</b><br>
-Check complete code from <A href = "https://colab.research.google.com/drive/1PDGmUerfGhi4-EIwd6MRTy5Ia1QI6PlC?usp=sharing">Link</a>
+Achieved 75% Accuracy on Validation Data with <b><i>epochs = 25</i></b> and 80% on training data but if you have gpu so you can increase epoches to achieve 95%+ accuracy.but for CPU increases epoches increase training time.<br>
