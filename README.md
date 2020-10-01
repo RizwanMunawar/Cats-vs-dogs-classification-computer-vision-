@@ -16,7 +16,7 @@ Validation Images of Dogs = 500<br>
 2-Dropout<br>
 
 <b>Model Summary:</b><br>
-<img src = "/Images/98.jpg">
+<img src = "/Images/98.jpg"><br><br>
 <b>Training and Validation Graph:</b><br>
 <img src = "/Images/download.png"><br>
 
