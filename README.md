@@ -19,7 +19,7 @@ Validation Images of Dogs = 500<br>
 <img src = "/Images/download.png"><br>
 
 <b>Store Model in File:</b><br>
-Stored Model <a href = "">Link</a><br>
+Stored Model <a href = "https://drive.google.com/file/d/1AtlKCOqGHTJjumfso62d8C9uSOHrC7nB/view?usp=sharing">Link</a><br>
 
 <b>Results:</b><br>
 Get 75% Accuracy on Validation Data with <b><i>epochs = 25</i></b>, but if you have gpu so you can achieve 95% accuracy with increase in number of epoches and dropout value<br>
