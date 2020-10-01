@@ -18,3 +18,5 @@ Validation Images of Dogs = 500<br>
 <b>Training and Validation Graph:</b><br>
 <img src = "/Images/download.png">
 
+<b>Store Model in File:</b><br>
+Stored Model <a href = "">Link</a>
