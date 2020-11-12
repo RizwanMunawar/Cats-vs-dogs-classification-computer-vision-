@@ -1,18 +1,21 @@
 # Cats-Vs-Dogs-Classification-CNN-Data-Augmentation
 <b>Dataset Details:</b><Br>
-Dataset is from google apis you can download it from <a href = "https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip">Link</a>.<br>
+  you can download dataset from <a href = "https://drive.google.com/drive/u/1/folders/1V3vQAuI8mVkyhD80rQ64QviHr0AfN4MA">google drive</a>.<br>
 
 <b>Dataset Description:</b><br>
-Dataset contain 3000 images of Cats and Dogs,we will train our model on 2000 images and 1000 images for validation.<br>
-Training Images of cats = 1000<br>
-Training Images of dogs = 1000<br>
+Dataset contain 3000 images of Cats and Dogs,
+we will train our model on 1700 images,710 images for validation and 604 images for testing.<br><br>
+Training Images of cats = 850<br>
+Training Images of dogs = 850<br>
 
-Validation Images of Cats = 500<br>
-Validation Images of Dogs = 500<br>
+Validation Images of Cats = 352<br>
+Validation Images of Dogs = 358<br>
 
-<b>Techniques Used:</b><br>
+Testing Images of Cats = 304<br>
+Testing Images of Dogs = 300<br>
+
+<b>Overfiting and Underfitting aviodence Techniques Used:</b><br>
 1-Data Augmentation (zoom,horizontal_flip,rotation)<br>
-1-Convolutional Neural Network<br>
 2-Dropout<br>
 
 <b>Model Summary:</b><br>
@@ -24,4 +27,6 @@ Validation Images of Dogs = 500<br>
 Stored Model <a href = "https://drive.google.com/file/d/1AtlKCOqGHTJjumfso62d8C9uSOHrC7nB/view?usp=sharing">Link</a><br>
 
 <b>Results:</b><br>
-Achieved 88% Accuracy on Validation Data with <b><i>epochs = 50</i></b> and 91% on training data but if you have gpu so you can increase epoches to achieve 95%+ accuracy.<br>
+Achieved 84% Accuracy on Training data with <b><i>epochs = 100</i></b><br>
+81% accuracy on validation data<br>
+80% accuracy on testing data<br>
