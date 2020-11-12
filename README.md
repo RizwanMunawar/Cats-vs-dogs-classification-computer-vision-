@@ -1,6 +1,6 @@
 # Cats-Vs-Dogs-Classification-CNN-Data-Augmentation
 <b>Dataset Details:</b><Br>
-  you can download dataset from <a href = "https://drive.google.com/drive/u/1/folders/1V3vQAuI8mVkyhD80rQ64QviHr0AfN4MA">google drive</a>.<br>
+  you can download dataset from <a target="_blank" href = "https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip">google apis</a>.<br>
 
 <b>Dataset Description:</b><br>
 Dataset contain 3000 images of Cats and Dogs,
@@ -19,12 +19,10 @@ Testing Images of Dogs = 300<br>
 2-Dropout<br>
 
 <b>Model Summary:</b><br>
+I used convolutional neural networks with 32, 64 nd 128 layers.<Br>
 <img src = "/Other-images/seq.jpg"><br><br>
 <b>Training and Validation Graph:</b><br>
 <img src = "/Other-images/training.png"><br>
-
-<b>Store Model in File:</b><br>
-Stored Model <a href = "https://drive.google.com/file/d/1AtlKCOqGHTJjumfso62d8C9uSOHrC7nB/view?usp=sharing">Link</a><br>
 
 <b>Results:</b><br>
 Achieved 84% Accuracy on Training data with <b><i>epochs = 100</i></b><br>
