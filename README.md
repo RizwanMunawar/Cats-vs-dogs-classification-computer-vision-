@@ -1,6 +1,6 @@
 # Cats-Vs-Dogs-Classification-CNN-Data-Augmentation
 <b>Dataset Details:</b><Br>
-  you can download dataset from <a target="_blank" href = "https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip">google apis</a>.<br>
+  you can download dataset from <a href = "https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip" target="_blank">google apis</a>.<br>
 
 <b>Dataset Description:</b><br>
 Dataset contain 3000 images of Cats and Dogs,
