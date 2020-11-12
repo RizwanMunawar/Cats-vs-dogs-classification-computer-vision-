@@ -1,4 +1,4 @@
-# Cats-Vs-Dogs-Classification-CNN-Data-Augmentation
+## CATS vs DOGS Classification using Convolutional Neural Networks and Data Augmentation<br>
 <b>Dataset Details:</b><Br>
   you can download dataset from <a href = "https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip" target="_blank">google apis</a>.<br>
 
