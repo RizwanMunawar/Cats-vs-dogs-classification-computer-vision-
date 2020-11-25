@@ -19,7 +19,7 @@ Testing Images of Dogs = 300<br>
 2-Dropout<br>
 
 <b>Model Summary:</b><br>
-I used convolutional neural networks with 32, 64 nd 128 layers.<Br>
+I used convolutional neural networks with 32, 64 and 128 layers.<Br>
 <img src = "/Other-images/seq.jpg"><br><br>
 <b>Training and Validation Graph:</b><br>
 <img src = "/Other-images/training.png"><br>
