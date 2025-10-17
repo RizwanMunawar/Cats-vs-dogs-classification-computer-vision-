@@ -1,36 +1,57 @@
-## CATS vs DOGS Classification using Convolutional Neural Networks and Data Augmentation
+# Cats vs Dogs classification using convolutional neural networks (CNN) and data augmentation 🚀
 
+**Dataset Details**
 
-### Dataset Details
+👉 you can download dataset from <a href = "https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip" target="_blank">google apis</a>.<br>
 
-  you can download dataset from <a href = "https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip" target="_blank">google apis</a>.<br>
+**Dataset Description**
 
-#### Dataset Description
+The dataset contains 3000 images of Cats and Dogs. We will train our model on 1700 images,710 images for validation, and 604 images for testing.
 
-Dataset contain 3000 images of Cats and Dogs,
-we will train our model on 1700 images,710 images for validation and 604 images for testing.<br><br>
-Training Images of cats = 850<br>
-Training Images of dogs = 850<br>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th>Dataset Split</th>
+      <th>Cats</th>
+      <th>Dogs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Training Images</td>
+      <td>850</td>
+      <td>850</td>
+    </tr>
+    <tr>
+      <td>Validation Images</td>
+      <td>352</td>
+      <td>358</td>
+    </tr>
+    <tr>
+      <td>Testing Images</td>
+      <td>304</td>
+      <td>300</td>
+    </tr>
+  </tbody>
+</table>
 
-Validation Images of Cats = 352<br>
-Validation Images of Dogs = 358<br>
+**Overfitting and Underfitting Avoidance Techniques Used**
 
-Testing Images of Cats = 304<br>
-Testing Images of Dogs = 300<br>
+- Data Augmentation (zoom,horizontal_flip, rotation)
+- Dropout
 
-### Overfiting and Underfitting aviodence Techniques Used
+**Model Summary**
 
-1-Data Augmentation (zoom,horizontal_flip,rotation)<br>
-2-Dropout<br>
+I used convolutional neural networks with 32, 64, and 128 layers.
 
-### Model Summary
+<img src = "/Other-images/seq.jpg">
 
-I used convolutional neural networks with 32, 64 and 128 layers.<Br>
-<img src = "/Other-images/seq.jpg"><br><br>
-<b>Training and Validation Graph:</b><br>
-<img src = "/Other-images/training.png"><br>
+**Training and Validation Graph**
 
-### Results
-Achieved 84% Accuracy on Training data with <b><i>epochs = 100</i></b><br>
-81% accuracy on validation data<br>
-80% accuracy on testing data<br>
+<img src = "/Other-images/training.png">
+
+**Results**
+
+- ✅ Achieved 84% Accuracy on Training data with <i>epochs = 100</i>
+- ✅ 81% accuracy on validation data
+- ✅ 80% accuracy on testing data
